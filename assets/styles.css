@@ -1,0 +1,141 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+}
+
+.row {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 32px;
+}
+
+.logo__container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+nav {
+}
+
+.link {
+  text-decoration: none;
+  color: #243e63;
+  font-size: 14px;
+  font-weight: 600;
+  margin: 0 24px;
+  padding-bottom: 4px;
+}
+
+.link:hover {
+  color: #6415ff;
+  text-decoration: underline;
+}
+
+.link--logo {
+  font-size: 24px;
+  margin-left: 16px;
+  font-weight: 700;
+}
+
+.logo {
+  width: 40px;
+  height: 40px;
+}
+
+.link--login {
+  margin: 0 24px 0 48px;
+}
+
+.link--signup {
+  background-color: #6415ff;
+  color: #f7fafc;
+  padding: 12px 32px;
+  border-radius: 20px;
+}
+
+.link--signup:hover {
+  color: #f7fafc;
+  text-decoration: none;
+  background-color: #4310a9;
+}
+
+/*
+
+DESCRIPTION
+
+*/
+
+.description__container {
+  display: flex;
+  justify-content: center;
+  padding: 96px 0;
+}
+
+.description {
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+h1 {
+  font-size: 48px;
+}
+
+.purple {
+  color: #6415ff;
+}
+
+.description__para {
+  font-size: 18px;
+  margin: 32px 0;
+  font-weight: 300;
+  line-height: 1.5;
+}
+
+.description__img {
+  width: 700px;
+  height: 500px;
+}
+
+.description__img--wrapper {
+  width: 60%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.description__input--wrapper {
+  position: relative;
+}
+
+.description__input {
+  padding: 20px 192px 20px 32px;
+  border-radius: 30px;
+}
+
+.description__button {
+  position: absolute;
+  width: 10rem;
+  right: 4px;
+  border-radius: 30px;
+  padding: 16px 0;
+  top: 4px;
+  font-size: 14px;
+  font-weight: 600;
+  color: #f7fafc;
+  background-color: #6415ff;
+}
+
+.description__button:hover {
+  background-color: #4310a9;
+}
