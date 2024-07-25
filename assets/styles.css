@@ -759,11 +759,20 @@ FOOTER
   margin-right: 32px;
 }
 
+.button--get-started:hover {
+  background-color: #c53e3e;
+}
+
 .button--contact-us {
   font-size: 16px;
   padding: 20px 40px;
   background-color: #6415ff;
   border: 1px solid white;
+}
+
+.button--contact-us:hover {
+  background-color: #f7fafc;
+  color: #6415ff;
 }
 
 footer {
@@ -804,6 +813,10 @@ footer {
   list-style: none;
 }
 
+.link__li:hover {
+  text-decoration: underline;
+}
+
 .footer__copyright--container {
   display: flex;
   align-content: center;
@@ -825,6 +838,7 @@ footer {
   font-size: 20px;
   font-weight: 800;
   color: #f7fafc;
+  padding-left: 8px;
 }
 
 .copyright__text {
@@ -858,4 +872,8 @@ hr {
   margin-right: 16px;
   padding: 8px;
   border-radius: 50px;
+}
+
+.sm__link--wrapper:hover {
+  background-color: #c7cacc;
 }
