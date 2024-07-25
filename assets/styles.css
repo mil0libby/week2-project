@@ -601,6 +601,14 @@ PRICING
   font-weight: 600;
 }
 
+.button--bottom:hover {
+  transform: translate(
+    1px,
+    -3px
+  ); /* Move the button up by 3 pixels and right by 1 pixel */
+  box-shadow: 1px 4px 8px rgba(0, 0, 0, 0.2); /* Adjust shadow to match button's new position */
+}
+
 .button--personal {
   background: linear-gradient(
     115deg,
