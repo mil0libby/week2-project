@@ -552,8 +552,7 @@ PRICING
 }
 
 .pricing__option--container {
-  margin: 64px 32px 0 0;
-
+  margin: 64px 32px 0 32px;
   width: calc(100% / 3);
 }
 
@@ -1200,7 +1199,7 @@ MEDIA QUERIES
 
 @media (max-width: 500px) {
   .pricing__option--container {
-    width: 90%;
+    width: 100%;
   }
 
   .steps__img {
