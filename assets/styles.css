@@ -509,13 +509,13 @@ VALUES
 
 .values__detail {
   width: 50%;
+  margin-left: 8px;
 }
 
 .values__detail--para {
   color: #718096;
   font-size: 16px;
   margin-top: 16px;
-  max-width: 260px;
   line-height: 1.5;
   font-weight: 400;
 }
@@ -1147,7 +1147,7 @@ MEDIA QUERIES
   }
 
   .steps__img {
-    padding: 32px;
+    padding: 24px;
   }
 
   .steps__img--wrapper,
@@ -1195,5 +1195,27 @@ MEDIA QUERIES
 
   .btn__menu {
     display: block;
+  }
+}
+
+@media (max-width: 500px) {
+  .pricing__option--container {
+    width: 90%;
+  }
+
+  .steps__img {
+    padding: 0px;
+  }
+
+  .steps--img__wrapper {
+    padding: 0;
+  }
+
+  .test__img--container {
+    padding: 0;
+  }
+
+  .values__detail {
+    width: 100%;
   }
 }
